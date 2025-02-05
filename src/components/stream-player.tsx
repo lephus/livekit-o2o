@@ -235,7 +235,7 @@ export function StreamPlayer({ isHost = false }) {
               size="1"
               variant="soft"
               onClick={switchCamera}
-              disabled={cameras.length < 2}
+              disabled={cameras?.length < 2}
             >
               Switch Camera
             </Button>

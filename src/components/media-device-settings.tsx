@@ -87,7 +87,7 @@ export function MediaDeviceSettings() {
             </Button>
           </DropdownMenu.Trigger>
           <DropdownMenu.Content size="1">
-            {cameraDevices.map((d) => (
+            {cameraDevices?.map((d) => (
               <DropdownMenu.Item
                 key={d.deviceId}
                 onClick={() => setActiveCameraDevice(d.deviceId)}

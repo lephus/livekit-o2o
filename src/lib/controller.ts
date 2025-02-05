@@ -146,7 +146,8 @@ export class Controller {
     } else {
       options.video = {
         source: TrackSource.CAMERA,
-        preset: IngressVideoEncodingPreset.H264_1080P_30FPS_3_LAYERS,
+        preset: IngressVideoEncodingPreset.H264_720P_30FPS_1_LAYER
+        // preset: IngressVideoEncodingPreset.H264_1080P_30FPS_3_LAYERS,
       };
       options.audio = {
         source: TrackSource.MICROPHONE,
