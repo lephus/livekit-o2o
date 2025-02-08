@@ -215,7 +215,7 @@ export function StreamPlayer({ isHost = false }) {
       <div className="absolute top-0 w-full p-2">
         <Flex justify="between" align="end">
           <Flex gap="2" justify="center" align="center">
-            <Button
+            {/* <Button
               size="1"
               variant="soft"
               disabled={!Boolean(roomName)}
@@ -230,7 +230,7 @@ export function StreamPlayer({ isHost = false }) {
               ) : (
                 "Loading..."
               )}
-            </Button>
+            </Button> */}
             <Button
               size="1"
               variant="soft"

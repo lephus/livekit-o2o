@@ -25,27 +25,52 @@ export function ReactionBar() {
       className="border-t border-accent-5 bg-accent-3 h-[100px] text-center"
     >
       <Tooltip content="Fire" delayDuration={0}>
-        <Button size="4" variant="outline" onClick={() => onSend("🔥")}>
+        <Button
+          style={{ borderRadius: "12px" }}
+          size="4"
+          variant="outline"
+          onClick={() => onSend("🔥")}
+        >
           🔥
         </Button>
       </Tooltip>
       <Tooltip content="Applause">
-        <Button size="4" variant="outline" onClick={() => onSend("👏")}>
+        <Button
+          style={{ borderRadius: "12px" }}
+          size="4"
+          variant="outline"
+          onClick={() => onSend("👏")}
+        >
           👏
         </Button>
       </Tooltip>
       <Tooltip content="LOL">
-        <Button size="4" variant="outline" onClick={() => onSend("🤣")}>
+        <Button
+          style={{ borderRadius: "12px" }}
+          size="4"
+          variant="outline"
+          onClick={() => onSend("🤣")}
+        >
           🤣
         </Button>
       </Tooltip>
       <Tooltip content="Love">
-        <Button size="4" variant="outline" onClick={() => onSend("❤️")}>
+        <Button
+          style={{ borderRadius: "12px" }}
+          size="4"
+          variant="outline"
+          onClick={() => onSend("❤️")}
+        >
           ❤️
         </Button>
       </Tooltip>
       <Tooltip content="Confetti">
-        <Button size="4" variant="outline" onClick={() => onSend("🎉")}>
+        <Button
+          style={{ borderRadius: "12px" }}
+          size="4"
+          variant="outline"
+          onClick={() => onSend("🎉")}
+        >
           🎉
         </Button>
       </Tooltip>
